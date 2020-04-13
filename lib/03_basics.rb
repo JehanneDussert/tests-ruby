@@ -3,7 +3,7 @@ def who_is_bigger(a, b, c)
         return "nil detected"
     end
     hash = {a: a, b: b, c: c}
-    max = hash.max_by{ |k,v| v }[0]
+    max = hash.max_by{|k,v| v}[0]
     return "#{max} is bigger"
 end
 
