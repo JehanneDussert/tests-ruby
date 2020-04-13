@@ -8,7 +8,7 @@ def translate(str)
     while sp_str[i]
         cons = 0
         if i > 0
-            new_str << " "
+            new_str << ' '
         end
         # Translates a word beginning with a vowel
         if vowel.include?(sp_str[i][0])
