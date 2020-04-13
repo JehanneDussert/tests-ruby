@@ -1,9 +1,9 @@
 def translate(str)
     vowel = ['a', 'e', 'i', 'o', 'u', 'y']
-    sp_str = str.split
     consonant = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z']
-    i = 0
+    sp_str = str.split
     new_str = ""
+    i = 0
 
     while sp_str[i]
         cons = 0
