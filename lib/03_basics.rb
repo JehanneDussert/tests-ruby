@@ -17,7 +17,7 @@ end
 
 def magic_array(array)
     # flatten : no more arrays in an array
-    # uniq : remove each number duplicate
+    # uniq : remove each number duplicated
     # compact : remove each nil elements
-    return array.flatten.sort.uniq.map{|x| if (x%3 != 0) then x*2 end}.compact
+    return array.flatten.sort.map{|x| if (x%3 != 0) then x*2 end}.uniq.compact
 end
